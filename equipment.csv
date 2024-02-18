@@ -1,0 +1,36 @@
+Slot;Name;Type;Level requirement;Armor;Attack;Defense;Bonus Distance;Bonus Magic Level;Resistance fire;Resistance phys;Resistance death;Resistance holy;Resistance energy;Resistance earth;Resistance ice
+Helmet;<none>;helmet;0;0;0;0;0;0;0;0;0;0;0;0;0
+Weapon;<none>;sword;0;0;0;0;0;0;0;0;0;0;0;0;0
+Legs;<none>;legs;0;0;0;0;0;0;0;0;0;0;0;0;0
+Amulet;<none>;amulet;0;0;0;0;0;0;0;0;0;0;0;0;0
+Armor;<none>;armor;0;0;0;0;0;0;0;0;0;0;0;0;0
+Shield;<none>;shield;0;0;0;0;0;0;0;0;0;0;0;0;0
+Boots;<none>;boots;0;0;0;0;0;0;0;0;0;0;0;0;0
+Ring;<none>;ring;0;0;0;0;0;0;0;0;0;0;0;0;0
+Helmet;Soldier helmet;helmet;0;5;0;0;0;0;0;0;0;0;0;0;0
+Helmet;Zao helmet;helmet;0;9;0;0;0;0;0;3;0;0;0;0;0
+Weapon;Short sword;sword;0;0;14;9;0;0;0;0;0;0;0;0;0
+Weapon;Giant sword;sword;55;0;45;9;0;0;0;0;0;0;0;0;0
+Weapon;Battle Axe;axe;0;0;25;10;0;0;0;0;0;0;0;0;0
+Weapon;Halberd;axe;25;0;35;14;0;0;0;0;0;0;0;0;0
+Weapon;Crossbow;distance;0;0;0;0;0;0;0;0;0;0;0;0;0
+Legs;Plate Legs;legs;0;7;0;0;0;0;0;0;0;0;0;0;0
+Legs;Magma Legs;legs;40;8;0;0;0;0;6;0;0;0;0;0;-6
+Armor;Leather Armor;armor;0;4;0;0;0;0;0;0;0;0;0;0;0
+Armor;Dragon Scale Mail;armor;0;15;0;0;0;0;0;0;0;0;0;0;0
+Armor;Fireborn Giant Armor;armor;100;15;0;0;0;0;5;0;0;0;0;0;-5
+Amulet;Scarf;amulet;0;1;0;0;0;0;0;0;0;0;0;0;0
+Amulet;Platinum Amulet;amulet;0;2;0;0;0;0;0;0;0;0;0;0;0
+Shield;Wooden shield;shield;0;0;0;14;0;0;0;0;0;0;0;0;0
+Shield;Copper shield;shield;0;0;0;19;0;0;0;0;0;0;0;0;0
+Shield;Dwarven Shield;shield;0;0;0;26;0;0;0;0;0;0;0;0;0
+Shield;Tusk Shield;shield;0;0;0;27;0;0;0;0;0;0;0;0;0
+Shield;Spike Shield;shield;0;0;0;28;0;0;0;0;0;0;0;0;0
+Shield;Guardian Shield ;shield;0;0;0;30;0;0;0;0;0;0;0;0;0
+Shield;Demon Shield ;shield;0;0;0;35;0;0;0;0;0;0;0;0;0
+Shield;Spellbook of enlightenment;spellbook;30;0;0;18;0;1;0;0;0;0;0;0;0
+Boots;Leather Boots ;boots;0;1;0;0;0;0;0;0;0;0;0;0;0
+Boots;Boots of Haste ;boots;0;0;0;0;0;0;0;0;0;0;0;0;0
+Boots;Prismatic Boots ;boots;150;3;0;0;0;0;0;0;3;0;0;0;0
+Ring;Life Ring;ring;0;0;0;0;0;0;0;0;0;0;0;0;0
+Ring;Death Ring;;0;1;0;0;0;0;0;0;0;0;0;0;0

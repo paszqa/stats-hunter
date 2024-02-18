@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="characterStats" class="column">
+            <h2>Character Stats</h2>
+            <label for="class">Class:</label>
+            <select id="class">
+                <option value="Knight">Knight</option>
+                <option value="Paladin">Paladin</option>
+                <option value="Druid">Druid</option>
+                <option value="Sorcerer">Sorcerer</option>
+            </select><br>
+
+            <label for="characterLevel">Character Level:</label>
+            <input type="number" id="characterLevel" min="1" value="8">><br>
+
+            <label for="magicLevel">Magic Level:</label>
+            <input type="number" id="magicLevel" min="0" value="1">><br>
+
+            <label for="swordSkill">Sword Skill:</label>
+            <input type="number" id="swordSkill" min="0" value="15">><br>
+
+            <label for="axeSkill">Axe Skill:</label>
+            <input type="number" id="axeSkill" min="0" value="15"><br>
+
+            <label for="clubSkill">Club Skill:</label>
+            <input type="number" id="clubSkill" min="0" value="15"><br>
+
+            <label for="distanceSkill">Distance Skill:</label>
+            <input type="number" id="distanceSkill" min="0" value="15"><br>
+
+            <label for="shieldingSkill">Shielding Skill:</label>
+            <input type="number" id="shieldingSkill" min="0" value="15"><br>
+            
+            <label for="amulet">Amulet:</label>
+            <select id="amulet"></select><br>
+
+            <label for="helmet">Helmet:</label>
+            <select id="helmet"></select><br>
+
+            <label for="weapon">Weapon:</label>
+            <select id="weapon"></select><br>
+
+            <label for="armor">Armor:</label>
+            <select id="armor"></select><br>
+
+            <label for="ring">Ring:</label>
+            <select id="ring"></select><br>
+
+            <label for="shield">Left hand:</label>
+            <select id="shield"></select><br>
+
+            <label for="legs">Legs:</label>
+            <select id="legs"></select><br>
+
+            <label for="boots">Boots:</label>
+            <select id="boots"></select><br>
+        </div>
+        <div id="stats" class="column">
+            <h2>Stats</h2>
+            <!-- Stats will be displayed here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
