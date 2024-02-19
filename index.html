@@ -39,32 +39,107 @@
             <label for="shieldingSkill">Shielding Skill:</label>
             <input type="number" id="shieldingSkill" min="0" value="15"><br>
             
-            <label for="amulet">Amulet:</label>
-            <select id="amulet"></select><br>
+            <table>
+                <tr><td>
+            <div class="dropdown">
+                <button class="dropdown-button" id="amuletButton" onclick="toggleDropdown('amuletDropdownGrid')">
+                    <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                    <p id="amulet">No amulet</p>
+                </button>
+                <div class="dropdown-grid" id="amuletDropdownGrid"></div>
+            </div>
+                </td><td>
+            <div class="dropdown">
+                <button class="dropdown-button" id="helmetButton" onclick="toggleDropdown('helmetDropdownGrid')">
+                    <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                    <p id="helmet">No helmet</p>
+                </button>
+                <div class="dropdown-grid" id="helmetDropdownGrid"></div>
+            </div>
+                </td><td>
+                    
+            <div class="dropdown">
+                <button class="dropdown-button" id="ammoButton" onclick="toggleDropdown('ammoDropdownGrid')">
+                    <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                    <p id="ammo">No ammo</p>
+                </button>
+                <div class="dropdown-grid" id="ammoDropdownGrid"></div>
+            </div>
+                </td>
+                <tr><td>
+            <div class="dropdown">
+                <button class="dropdown-button" id="weaponButton" onclick="toggleDropdown('weaponDropdownGrid')">
+                    <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                    <p id="weapon">No weapon</p>
+                </button>
+                <div class="dropdown-grid" id="weaponDropdownGrid"></div>
+            </div>
+                </td><td>
+    
 
-            <label for="helmet">Helmet:</label>
-            <select id="helmet"></select><br>
+            <div class="dropdown">
+                <button class="dropdown-button" id="armorButton" onclick="toggleDropdown('armorDropdownGrid')">
+                    <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                    <p id="armor">No armor</p>
+                </button>
+                <div class="dropdown-grid" id="armorDropdownGrid"></div>
+            </div>
+                </td><td>
 
-            <label for="weapon">Weapon:</label>
-            <select id="weapon"></select><br>
+                    <div class="dropdown">
+                        <button class="dropdown-button" id="shieldButton" onclick="toggleDropdown('shieldDropdownGrid')">
+                            <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                            <p id="shield">No left hand</p>
+                        </button>
+                        <div class="dropdown-grid" id="shieldDropdownGrid"></div>
+                    </div>
+                </td>
+                <tr><td>
+            <div class="dropdown">
+                <button class="dropdown-button" id="ringButton" onclick="toggleDropdown('ringDropdownGrid')">
+                    <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                    <p id="ring">No ring</p>
+                </button>
+                <div class="dropdown-grid" id="ringDropdownGrid"></div>
+            </div>
 
-            <label for="armor">Armor:</label>
-            <select id="armor"></select><br>
+        </td><td>
 
-            <label for="ring">Ring:</label>
-            <select id="ring"></select><br>
 
-            <label for="shield">Left hand:</label>
-            <select id="shield"></select><br>
 
-            <label for="legs">Legs:</label>
-            <select id="legs"></select><br>
 
-            <label for="boots">Boots:</label>
-            <select id="boots"></select><br>
+            <div class="dropdown">
+                <button class="dropdown-button" id="legsButton" onclick="toggleDropdown('legsDropdownGrid')">
+                    <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                    <p id="legs">No legs</p>
+                </button>
+                <div class="dropdown-grid" id="legsDropdownGrid"></div>
+            </div>
+        </td><td>
+
+            <div class="dropdown">
+                <button class="dropdown-button" id="bootsButton" onclick="toggleDropdown('bootsDropdownGrid')">
+                    <img src="default-helmet-icon.png" width="32" height="32" alt="Default Helmet Icon">
+                    <p id="boots">No boots</p>
+                </button>
+                <div class="dropdown-grid" id="bootsDropdownGrid"></div>
+            </div>
+
+        </table>
+
         </div>
         <div id="stats" class="column">
             <h2>Stats</h2>
+            <!-- Stats will be displayed here by JavaScript -->
+        </div>
+        
+        <div id="monsters" class="column">
+            <h2>Creatures</h2>
+            <!-- Stats will be displayed here by JavaScript -->
+        </div>
+        
+        <div id="hunts" class="column">
+            <h2>Hunting Grounds</h2>
             <!-- Stats will be displayed here by JavaScript -->
         </div>
     </div>

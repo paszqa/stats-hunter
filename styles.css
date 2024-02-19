@@ -24,3 +24,86 @@ select, label {
 h2 {
     color: #ccc;
 }
+
+.dropdown-grid {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #074e22;
+    border: 1px solid #ccc;
+    padding: 10px;
+    grid-template-columns: repeat(7, 128px);
+    grid-auto-rows: 64px;
+    grid-gap: 10px;
+}
+
+.dropdown-grid-item {
+    width: 128px;
+    height: 64px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+}
+
+
+.dropdown-grid.show {
+    display: grid;
+}
+
+.dropdown-grid-item img {
+    width: 32px;
+    height: 32px;
+    margin: auto; /* Center the image vertically and horizontally */
+    pointer-events: none;
+}
+
+.dropdown-grid-item p {
+    text-align: center;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(197, 209, 25);
+    font-weight: 800;
+    text-shadow: 0 0 3px black;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.dropdown-button {
+    width: 128px;
+    height: 64px;
+    padding: 8px;
+    margin: 10px;
+    border: 0px solid #ff0;
+    background-color: #074e22;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+    text-wrap: nowrap;
+}
+
+.dropdown-button img {
+    width: 32px; /* Original width of the image */
+    height: 32px; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure image does not stretch beyond its original size */
+    margin-bottom: 4px; /* Adjust as needed */
+    pointer-events: none;
+}
+
+.dropdown-button p {
+    width: 100%;
+    overflow: visible;
+    text-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(197, 209, 25);
+    font-weight: 800;
+    text-shadow: 0 0 3px black;
+}
