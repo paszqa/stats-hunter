@@ -1,7 +1,8 @@
 body {
     background-color: #111;
     color: #eee;
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
 }
 
 .container {
