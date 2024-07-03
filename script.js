@@ -1272,10 +1272,10 @@ function displayMonster(monsterStats){
       <p id="monsterImage"><img src="${monsterStats.image}"></p>
     </div>
     <div id="monsterBlockRight">
-      <p id="monsterHealth"><img src="images/Health_Icon.gif/revision/latest?cb=20171230131347&path-prefix=en&format=original"> ${monsterStats.health}</p>
-      <p id="monsterExp"><img src="images/Experience_Icon.gif/revision/latest?cb=20171230131346&path-prefix=en&format=original"> ${monsterStats.exp}</p>
-      <p id="monsterSpeed"><img src="images/Haste_Icon.gif/revision/latest?cb=20171122233545&path-prefix=en&format=original"> ${monsterStats.speed}</p>
-      <p id="monsterArmor"><img src="images/Armor_Icon.gif/revision/latest?cb=20171230131345&path-prefix=en&format=original"> ${monsterStats.armor}</p>
+      <p id="monsterHealth"><img src="images/Health_Icon.gif"> ${monsterStats.health}</p>
+      <p id="monsterExp"><img src="images/Experience_Icon.gif"> ${monsterStats.exp}</p>
+      <p id="monsterSpeed"><img src="images/Haste_Icon.gif"> ${monsterStats.speed}</p>
+      <p id="monsterArmor"><img src="images/Armor_Icon.gif"> ${monsterStats.armor}</p>
     
     <div id="damageTaken">
         <div class="row">
