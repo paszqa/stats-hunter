@@ -829,7 +829,7 @@ function displayStats(stats) {
                     <div class="weaponImage"><img src="images/${stats.weaponStats.Icon.split("/")[7]}"></div>
                     <div class="weaponSubtitle">${weaponDiv} ${stats.weaponStats.Attack}/${stats.weaponStats.Defense}</div>
                 </div>
-            <div class="calculatedShield">Shield: <img src="https://static.wikia.nocookie.net/tibia/images/1/17/Steel_Shield.gif/revision/latest?cb=20050614194907&path-prefix=en&format=original">${stats.shieldStats.Defense}</div>
+            <div class="calculatedShield">Shield: <img src="images/Steel_Shield.gif">${stats.shieldStats.Defense}</div>
             </div>
         ` : ''}
         <div class="calculatedStats">Armor reduction: ~${stats.armorReductionAvg} (${stats.armorReductionMin} - ${stats.armorReductionMax})</div>
