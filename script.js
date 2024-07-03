@@ -203,6 +203,7 @@ classIcons.forEach(icon => {
         // Get the selected class value
         mainCharacterClass = this.getAttribute('alt');
         console.log('Selected class:', mainCharacterClass);
+        stats.characterClass = mainCharacterClass;
     });
 });
 
