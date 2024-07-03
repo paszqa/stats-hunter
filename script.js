@@ -258,7 +258,12 @@ function populateDropdownGrid(gridId, equipment, slot, characterClass, character
         gridItem.classList.add('dropdown-grid-item');
 
         const icon = document.createElement('img');
-        icon.src = "images/"+item.Icon.split("/")[7];//(/cb=\d+\&/, '');; // Assuming 'Icon' is the name of the column containing image URLs in the CSV
+        if(item.Icon != "test.png"){
+            icon.src = "images/"+item.Icon.split("/")[7];//(/cb=\d+\&/, '');; // Assuming 'Icon' is the name of the column containing image URLs in the CSV
+        }
+        else{
+            icon.src = "test.png";
+        }
 
         const name = document.createElement('p');
         name.textContent = item.Name;
