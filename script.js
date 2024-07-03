@@ -273,7 +273,12 @@ function populateDropdownGrid(gridId, equipment, slot, characterClass, character
             const button = document.getElementById(slot.toLowerCase()+'Button');
             button.innerHTML = ''; // Clear existing content
             const selectedIcon = document.createElement('img');
-            selectedIcon.src = item.Icon;
+            if(item.Icon != "test.png"){
+                selectedIcon.src = "images/"+item.Icon.split("/")[7];//(/cb=\d+\&/, '');; // Assuming 'Icon' is the name of the column containing image URLs in the CSV
+            }
+            else{
+                selectedIcon.src = "test.png";
+            }
             const selectedName = document.createElement('p');
             selectedName.setAttribute('id', slot.toLowerCase());
             selectedName.innerText = item.Name;
