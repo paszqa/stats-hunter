@@ -1029,7 +1029,7 @@ function calculateMonster(){
 
     let stats = {
         name: monsterName,
-        image: monsterStats.Image,
+        image: "images/"+monsterStats.Image.split("/"[7]),
         health: monsterStats.Health,
         exp: monsterStats.Exp,
         speed: monsterStats.Speed,
