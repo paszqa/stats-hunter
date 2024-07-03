@@ -793,31 +793,31 @@ function displayStats(stats) {
     let weaponDiv = ""
     switch(stats.weaponStats.Type){
         case "sword":
-            weaponDiv = `<img class="smallWeaponType" src="https://static.wikia.nocookie.net/tibia/images/1/1f/Sword.gif/revision/latest?cb=20120411043434&path-prefix=en&format=original">`;
+            weaponDiv = `<img class="smallWeaponType" src="images/Sword.webp">`;
             break;
         case "axe":
-            weaponDiv = `<img class="smallWeaponType" src="https://static.wikia.nocookie.net/tibia/images/3/31/Axe.gif/revision/latest?cb=20080704084311&path-prefix=en&format=original">`;
+            weaponDiv = `<img class="smallWeaponType" src="images/Axe.webp">`;
             break;
         case "club":
-            weaponDiv = `<img class="smallWeaponType" src="https://static.wikia.nocookie.net/tibia/images/3/37/Club.gif/revision/latest?cb=20051119163830&path-prefix=en&format=original">`;
+            weaponDiv = `<img class="smallWeaponType" src="images/Club.webp">`;
             break;
         case "crossbow":
-            weaponDiv = `<img class="smallWeaponType" src="https://static.wikia.nocookie.net/tibia/images/5/51/Crossbow.gif/revision/latest?cb=20050520010709&path-prefix=en&format=original">`;
+            weaponDiv = `<img class="smallWeaponType" src="images/Crossbow.webp">`;
             break;
         case "bow":
-            weaponDiv = `<img class="smallWeaponType" src="https://static.wikia.nocookie.net/tibia/images/a/ad/Bow.gif/revision/latest?cb=20070630122316&path-prefix=en&format=original">`;
+            weaponDiv = `<img class="smallWeaponType" src="images/Bow.webp">`;
             break;
         default:
-            weaponDiv = `<img class="smallWeaponType" src="https://static.wikia.nocookie.net/tibia/images/3/30/Cauliflower.gif/revision/latest?cb=20100621023040&path-prefix=en&format=original">`;
+            weaponDiv = `<img class="smallWeaponType" src="images/Cauliflower.webp">`;
             break;
     }
     statsDiv.innerHTML = `
         <h2>Stats</h2>
-        <div class="calculatedStats"><img src="https://static.wikia.nocookie.net/tibia/images/8/85/Hit_Points_Icon.gif/revision/latest?cb=20221114171144&path-prefix=en"> ${stats.hitpoints}</div>
-        <div class="calculatedStats"><img src="https://static.wikia.nocookie.net/tibia/images/7/7a/Mana_Icon.gif/revision/latest?cb=20221114171145&path-prefix=en"> ${stats.manapoints}</div>
-        <div class="calculatedStats"><img src="https://static.wikia.nocookie.net/tibia/images/8/8a/Capacity_Icon.gif/revision/latest?cb=20221114171140&path-prefix=en"> ${stats.capacity}</div>
-        <div class="calculatedStats"><img src="https://static.wikia.nocookie.net/tibia/images/2/2c/Armor_Icon.gif/revision/latest?cb=20171230131345&path-prefix=en&format=original"> ${stats.totalArmor}</div>
-        <div class="calculatedStats"><img src="https://static.wikia.nocookie.net/tibia/images/5/54/Shielding_Icon.png/revision/latest?cb=20210921033606&path-prefix=en&format=original"> ${stats.totalDefense}</div>
+        <div class="calculatedStats"><img src="images/Hit_Points_Icon.webp"> ${stats.hitpoints}</div>
+        <div class="calculatedStats"><img src="images/Mana_Icon.webp"> ${stats.manapoints}</div>
+        <div class="calculatedStats"><img src="images/Capacity_Icon.webp"> ${stats.capacity}</div>
+        <div class="calculatedStats"><img src="images/Armor_Icon.gif"> ${stats.totalArmor}</div>
+        <div class="calculatedStats"><img src="images/Shielding_Icon.png"> ${stats.totalDefense}</div>
         ${stats.weaponStats ? `
             <div class="calculatedWeaponShield">
                 <div class="calculatedWeapon">
@@ -829,9 +829,9 @@ function displayStats(stats) {
         ` : ''}
         <div class="calculatedStats">Armor reduction: ~${stats.armorReductionAvg} (${stats.armorReductionMin} - ${stats.armorReductionMax})</div>
         <div class="calculatedStats">Defense value:
-        <img src="https://static.wikia.nocookie.net/tibia/images/c/c3/Offensive_Fighting.gif/revision/latest?cb=20060213144928&path-prefix=en&format=original"> ${stats.defenseValueOffensive}
-        <img src="https://static.wikia.nocookie.net/tibia/images/6/67/Balanced_Fighting.gif/revision/latest?cb=20060213144935&path-prefix=en&format=original"> ${stats.defenseValueBalanced}
-        <img src="https://static.wikia.nocookie.net/tibia/images/e/e7/Defensive_Fighting.gif/revision/latest?cb=20060213144724&path-prefix=en&format=original"> ${stats.defenseValueDefensive}</div>
+        <img src="images/Offensive_Fighting.gif"> ${stats.defenseValueOffensive}
+        <img src="images/Balanced_Fighting.gif"> ${stats.defenseValueBalanced}
+        <img src="images/Defensive_Fighting.gif"> ${stats.defenseValueDefensive}</div>
         ${classSpecificDiv}
         <div class="calculatedStats">DMG turns: ${(stats.turns)}</div>
     `;
@@ -1170,33 +1170,33 @@ function imageForDamageType(damageTypeInput){
     let damageType = damageTypeInput.toLowerCase();
     switch(damageType){
         case "physical":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/c/c1/Bestiary_Physical_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210614055117&path-prefix=en&format=original\">";
+            return "<img src=\"images/Bestiary_Physical_Icon_Big.gif\">";
         case "death":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/c/c1/Cursed_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053007&path-prefix=en&format=original\">";
+            return "<img src=\"images/Cursed_Icon_Big.gif\">";
         case "holy":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/8/80/Dazzled_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053006&path-prefix=en&format=original\">";
+            return "<img src=\"images/Dazzled_Icon_Big.gif\">";
         case "ice":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/b/b4/Freezing_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618052446&path-prefix=en&format=original\">";
+            return "<img src=\"images/Freezing_Icon_Big.gif\">";
         case "fire":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/7/71/Burning_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053011&path-prefix=en&format=original\">";
+            return "<img src=\"images/Burning_Icon_Big.gif\">";
         case "energy":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/9/9b/Electrified_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053008&path-prefix=en&format=original\">";
+            return "<img src=\"images/Electrified_Icon_Big.gif\">";
         case "earth":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/8/82/Poisoned_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053010&path-prefix=en&format=original\">";
+            return "<img src=\"images/Poisoned_Icon_Big.gif\">";
         case "lifedrain":
         case "life":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/2/27/Life_Drain_Icon.gif/revision/latest?cb=20210531025009&path-prefix=en&format=original\">";
+            return "<img src=\"images/Life_Drain_Icon.gif\">";
         case "manadrain":
         case "mana":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/c/ca/Mana_Drain_Icon.gif/revision/latest?cb=20210531031144&path-prefix=en&format=original\">";
+            return "<img src=\"images/Mana_Drain_Icon.gif/\">";
         case "summon":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/9/9c/Player_Summon.gif/revision/latest?cb=20210601013549&path-prefix=en&format=original\">";
+            return "<img src=\"images/Player_Summon.gif\">";
         case "heal":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/c/cc/Healing_Icon.gif/revision/latest?cb=20190328173405&path-prefix=en&format=original\">";
+            return "<img src=\"images/Healing_Icon.gif\">";
         case "paralysis":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/3/30/Slowed_Icon.gif/revision/latest?cb=20171122234451&path-prefix=en&format=original\">";
+            return "<img src=\"images/Slowed_Icon.gif\">";
         case "haste":
-            return "<img src=\"https://static.wikia.nocookie.net/tibia/images/0/00/Haste_Icon.gif/revision/latest?cb=20171122233545&path-prefix=en&format=original\">";
+            return "<img src=\"images/Haste_Icon.gif\">";
         default:
             return " ["+damageType+"] ";
     }
@@ -1241,27 +1241,27 @@ function displayMonster(monsterStats){
     //--end of attacks div constructor--
     //--build HP lost divs--
     let meleeLostDiv = ""
-    if(monsterStats.simulation.meleeDmgPerFight.physical > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/c/c1/Bestiary_Physical_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210614055117&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.physical+"</div>";
-    if(monsterStats.simulation.meleeDmgPerFight.death > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/c/c1/Cursed_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053007&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.death+"</div>";
-    if(monsterStats.simulation.meleeDmgPerFight.holy > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/8/80/Dazzled_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053006&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.holy+"</div>";
-    if(monsterStats.simulation.meleeDmgPerFight.ice > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/b/b4/Freezing_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618052446&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.ice+"</div>";
-    if(monsterStats.simulation.meleeDmgPerFight.fire > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/7/71/Burning_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053011&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.fire+"</div>";
-    if(monsterStats.simulation.meleeDmgPerFight.energy > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/9/9b/Electrified_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053008&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.energy+"</div>";
-    if(monsterStats.simulation.meleeDmgPerFight.earth > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/8/82/Poisoned_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053010&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.earth+"</div>";
-    if(monsterStats.simulation.meleeDmgPerFight.life > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/2/27/Life_Drain_Icon.gif/revision/latest?cb=20210531025009&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.life+"</div>";
-    if(monsterStats.simulation.meleeDmgPerFight.mana > 0) meleeLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/c/ca/Mana_Drain_Icon.gif/revision/latest?cb=20210531031144&path-prefix=en&format=original\"> "+monsterStats.simulation.meleeDmgPerFight.mana+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.physical > 0) meleeLostDiv += "<div><img src=\"images/Bestiary_Physical_Icon_Big.gif\"> "+monsterStats.simulation.meleeDmgPerFight.physical+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.death > 0) meleeLostDiv += "<div><img src=\"images/Cursed_Icon_Big.gif\"> "+monsterStats.simulation.meleeDmgPerFight.death+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.holy > 0) meleeLostDiv += "<div><img src=\"images/Dazzled_Icon_Big.gif\"> "+monsterStats.simulation.meleeDmgPerFight.holy+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.ice > 0) meleeLostDiv += "<div><img src=\"images/Freezing_Icon_Big.gif\"> "+monsterStats.simulation.meleeDmgPerFight.ice+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.fire > 0) meleeLostDiv += "<div><img src=\"images/Burning_Icon_Big.gif\"> "+monsterStats.simulation.meleeDmgPerFight.fire+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.energy > 0) meleeLostDiv += "<div><img src=\"images/Electrified_Icon_Big.gif\"> "+monsterStats.simulation.meleeDmgPerFight.energy+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.earth > 0) meleeLostDiv += "<div><img src=\"images/Poisoned_Icon_Big.gif\"> "+monsterStats.simulation.meleeDmgPerFight.earth+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.life > 0) meleeLostDiv += "<div><img src=\"images/Life_Drain_Icon.gif\"> "+monsterStats.simulation.meleeDmgPerFight.life+"</div>";
+    if(monsterStats.simulation.meleeDmgPerFight.mana > 0) meleeLostDiv += "<div><img src=\"images/Mana_Drain_Icon.gif\"> "+monsterStats.simulation.meleeDmgPerFight.mana+"</div>";
     meleeLostDiv += "</div>";
     let distanceLostDiv = ""
     console.log("Distance dmg per fight: "+JSON.stringify(monsterStats.simulation.distanceDmgPerFight));
-    if(monsterStats.simulation.distanceDmgPerFight.physical > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/c/c1/Bestiary_Physical_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210614055117&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.physical+"</div>";
-    if(monsterStats.simulation.distanceDmgPerFight.death > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/c/c1/Cursed_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053007&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.death+"</div>";
-    if(monsterStats.simulation.distanceDmgPerFight.holy > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/8/80/Dazzled_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053006&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.holy+"</div>";
-    if(monsterStats.simulation.distanceDmgPerFight.ice > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/b/b4/Freezing_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618052446&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.ice+"</div>";
-    if(monsterStats.simulation.distanceDmgPerFight.fire > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/7/71/Burning_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053011&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.fire+"</div>";
-    if(monsterStats.simulation.distanceDmgPerFight.energy > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/9/9b/Electrified_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053008&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.energy+"</div>";
-    if(monsterStats.simulation.distanceDmgPerFight.earth > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/8/82/Poisoned_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053010&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.earth+"</div>";
-    if(monsterStats.simulation.distanceDmgPerFight.life > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/2/27/Life_Drain_Icon.gif/revision/latest?cb=20210531025009&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.life+"</div>";
-    if(monsterStats.simulation.distanceDmgPerFight.mana > 0) distanceLostDiv += "<div><img src=\"https://static.wikia.nocookie.net/tibia/images/c/ca/Mana_Drain_Icon.gif/revision/latest?cb=20210531031144&path-prefix=en&format=original\"> "+monsterStats.simulation.distanceDmgPerFight.mana+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.physical > 0) distanceLostDiv += "<div><img src=\"images/Bestiary_Physical_Icon_Big.gif\"> "+monsterStats.simulation.distanceDmgPerFight.physical+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.death > 0) distanceLostDiv += "<div><img src=\"images/Cursed_Icon_Big.gif\"> "+monsterStats.simulation.distanceDmgPerFight.death+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.holy > 0) distanceLostDiv += "<div><img src=\"images/Dazzled_Icon_Big.gif\"> "+monsterStats.simulation.distanceDmgPerFight.holy+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.ice > 0) distanceLostDiv += "<div><img src=\"images/Freezing_Icon_Big.gif\"> "+monsterStats.simulation.distanceDmgPerFight.ice+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.fire > 0) distanceLostDiv += "<div><img src=\"images/Burning_Icon_Big.gif\"> "+monsterStats.simulation.distanceDmgPerFight.fire+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.energy > 0) distanceLostDiv += "<div><img src=\"images/Electrified_Icon_Big.gif\"> "+monsterStats.simulation.distanceDmgPerFight.energy+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.earth > 0) distanceLostDiv += "<div><img src=\"images/Poisoned_Icon_Big.gif\"> "+monsterStats.simulation.distanceDmgPerFight.earth+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.life > 0) distanceLostDiv += "<div><img src=\"images/Life_Drain_Icon.gif\"> "+monsterStats.simulation.distanceDmgPerFight.life+"</div>";
+    if(monsterStats.simulation.distanceDmgPerFight.mana > 0) distanceLostDiv += "<div><img src=\"images/Mana_Drain_Icon.gif\"> "+monsterStats.simulation.distanceDmgPerFight.mana+"</div>";
     distanceLostDiv += "</div>";
     //--end of HP lost divs--
     console.log("TEST CHECK OF PHYSICAL RES: "+monsterStats.physical);
@@ -1272,20 +1272,20 @@ function displayMonster(monsterStats){
       <p id="monsterImage"><img src="${monsterStats.image}"></p>
     </div>
     <div id="monsterBlockRight">
-      <p id="monsterHealth"><img src="https://static.wikia.nocookie.net/tibia/images/a/a2/Health_Icon.gif/revision/latest?cb=20171230131347&path-prefix=en&format=original"> ${monsterStats.health}</p>
-      <p id="monsterExp"><img src="https://static.wikia.nocookie.net/tibia/images/2/2a/Experience_Icon.gif/revision/latest?cb=20171230131346&path-prefix=en&format=original"> ${monsterStats.exp}</p>
-      <p id="monsterSpeed"><img src="https://static.wikia.nocookie.net/tibia/images/0/00/Haste_Icon.gif/revision/latest?cb=20171122233545&path-prefix=en&format=original"> ${monsterStats.speed}</p>
-      <p id="monsterArmor"><img src="https://static.wikia.nocookie.net/tibia/images/2/2c/Armor_Icon.gif/revision/latest?cb=20171230131345&path-prefix=en&format=original"> ${monsterStats.armor}</p>
+      <p id="monsterHealth"><img src="images/Health_Icon.gif/revision/latest?cb=20171230131347&path-prefix=en&format=original"> ${monsterStats.health}</p>
+      <p id="monsterExp"><img src="images/Experience_Icon.gif/revision/latest?cb=20171230131346&path-prefix=en&format=original"> ${monsterStats.exp}</p>
+      <p id="monsterSpeed"><img src="images/Haste_Icon.gif/revision/latest?cb=20171122233545&path-prefix=en&format=original"> ${monsterStats.speed}</p>
+      <p id="monsterArmor"><img src="images/Armor_Icon.gif/revision/latest?cb=20171230131345&path-prefix=en&format=original"> ${monsterStats.armor}</p>
     
     <div id="damageTaken">
         <div class="row">
-            <div class="box" id="physical"><img src="https://static.wikia.nocookie.net/tibia/images/c/c1/Bestiary_Physical_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210614055117&path-prefix=en&format=original"></div>
-            <div class="box" id="death"><img src="https://static.wikia.nocookie.net/tibia/images/c/c1/Cursed_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053007&path-prefix=en&format=original"></div>
-            <div class="box" id="holy"><img src="https://static.wikia.nocookie.net/tibia/images/8/80/Dazzled_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053006&path-prefix=en&format=original"></div>
-            <div class="box" id="ice"><img src="https://static.wikia.nocookie.net/tibia/images/b/b4/Freezing_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618052446&path-prefix=en&format=original"></div>
-            <div class="box" id="fire"><img src="https://static.wikia.nocookie.net/tibia/images/7/71/Burning_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053011&path-prefix=en&format=original"></div>
-            <div class="box" id="energy"><img src="https://static.wikia.nocookie.net/tibia/images/9/9b/Electrified_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053008&path-prefix=en&format=original"></div>
-            <div class="box" id="earth"><img src="https://static.wikia.nocookie.net/tibia/images/8/82/Poisoned_Icon_Big.gif/revision/latest/scale-to-width-down/16?cb=20210618053010&path-prefix=en&format=original"></div>
+            <div class="box" id="physical"><img src="images/Bestiary_Physical_Icon_Big.gif"></div>
+            <div class="box" id="death"><img src="images/Cursed_Icon_Big.gif"></div>
+            <div class="box" id="holy"><img src="images/Dazzled_Icon_Big.gif"></div>
+            <div class="box" id="ice"><img src="images/Freezing_Icon_Big.gif"></div>
+            <div class="box" id="fire"><img src="images/Burning_Icon_Big.gif"></div>
+            <div class="box" id="energy"><img src="images/Electrified_Icon_Big.gif"></div>
+            <div class="box" id="earth"><img src="images/Poisoned_Icon_Big.gif"></div>
         </div>
         <div class="row bottom-row">
             <div class="box" style="background: #${monsterStats.physicalColor}" id="physicalValue">${(monsterStats.physical * 100).toFixed(0)}%</div>
