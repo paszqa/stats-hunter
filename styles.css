@@ -8,11 +8,77 @@ body {
     display: flex;
 }
 
+
 .column {
     flex: 1;
     padding: 20px;
 }
 
+.column #stats {
+  flex: 0;
+  width: 100px;
+  display: inline-block;
+}
+
+.calculatedStats{
+  width: 100px;
+  width: 100px;
+  display: inline-block;
+  background-color: #454;
+  color: rgb(219, 219, 219);
+  border: 0px solid black;
+  font-size: 14px;
+  line-height: 10px;  
+  font-weight: 800;
+  text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+  text-align: center;
+}
+
+.calculatedWeaponShield{
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  background-color: green;
+  padding: 0px;
+  margin: 0px;
+}
+
+.calculatedWeapon{
+  width: 40%;
+  height: 70px;
+  display: inline-flex;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  align-items: center;
+}
+.calculatedShield{
+  width: 40%;
+  height: 70px;
+  display: inline-block;
+  background-color: blue;
+  padding: 0px;
+  margin: 0px;
+}
+.weaponImage, .weaponImage img{
+  width: 64px;
+  height: 64px;
+  text-align: center;
+}
+.weaponSubtitle{
+  color: #c2e400;
+  text-align: center;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+
+}
+.smallWeaponType{
+  width: 16px;
+  height: 16px;
+}
 select, label {
     margin-bottom: 10px;
     color: #eee;
@@ -22,7 +88,12 @@ select, label {
 }
 
 h2 {
-    color: #ccc;
+    color: #c2e400;
+    text-align: center;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
 }
 
 .dropdown-grid {
@@ -35,6 +106,11 @@ h2 {
     grid-template-columns: repeat(7, 128px);
     grid-auto-rows: 64px;
     grid-gap: 10px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+    color: #01db30;
 }
 
 .dropdown-grid-item {
@@ -106,4 +182,267 @@ h2 {
     color: rgb(197, 209, 25);
     font-weight: 800;
     text-shadow: 0 0 3px black;
+}
+/*
+#monsterName {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+    color: #01db30;
+}*/
+#monsterContainer {
+    display: flex;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+    color: #01db30;
+  }
+  
+  #monsterBlockLeft {
+    width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #monsterBlockLeft p{
+    margin: 0;
+    padding: 10px;
+  } 
+  
+  #monsterBlockRight {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed */
+    vertical-align: top; /* Align the inline-blocks to the top */
+  }
+  
+  #monsterBlockRight p {
+    display: inline-block;
+    margin: 0;
+    width: 45%;
+    align-items: center;
+    text-align: center;
+  }
+
+  #monsterExp {
+    color: #ffffff;
+  }
+
+  #monsterSpeed {
+    color: #e0d530;
+  }
+
+  #monsterArmor {
+    color: #7c91ad;
+  }
+
+#monsterImage img {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
+#damageTaken {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+    width: 150px;
+    border: 0px solid #fff;
+    padding-top: 10px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    border: 0px solid #fff;
+  }
+  .row img{
+    width: 13px;
+    height: 13px;
+  }
+  
+  .box {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 5px;
+    border: 0px solid #fff;
+  }
+  
+.bottom-row .box {
+    writing-mode: vertical-lr; /* Set text orientation to vertical */
+    width: 30px;
+    height: 40px;
+  }
+
+  .header {
+    flex: 1;
+    font-weight: bold;
+    border: 1px solid #000;
+    padding: 5px;
+  }
+
+  .attacks {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+  }
+  
+  .attack {
+    display: flex;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+    color: #01db30;
+  }
+  
+  .attack > span.damage {
+    color: #db3f01;
+  }
+  
+  .attack > span.heal {
+    color: #6cd131;
+  }
+  .attack > img{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .attack > div {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 5px;
+  }
+
+  #characterStats{
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+    color: #c6c9c6;
+  }
+
+  #characterStats > input{
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+    color: #d7ec1a;
+    width: 70px;
+    text-align: center;
+  }
+
+  .equipment {
+    display: flex;
+    width: 500px;
+    justify-content: center; /* Center child elements horizontally */
+  }
+  .class-icons {
+    display: flex;
+    width: 500px;
+    justify-content: center; /* Center child elements horizontally */
+  }
+  
+  .class-icon {
+    width: 50px; /* Adjust as needed */
+    cursor: pointer;
+    background-color: transparent;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    border-radius: 10px;
+  }
+  
+.class-icons div {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.class-icons p {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+.class-icon.active {
+  background-color: #fff;
+}
+
+.skills {
+  background-color: transparent;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center child elements horizontally */
+}
+
+.skills .level, .skills .magic{
+  width: 200px;
+}
+
+.skills .skill{
+  width: 150px;
+}
+
+.skills label{
+  width: 40px;
+  display: inline-block;
+  text-align: right;
+  background-color: transparent;
+}
+
+/*
+
+.skill input, .level input, .magic input{
+  width: 50px;
+  background-color: #143616;
+  border: 0px solid #fff;
+  margin: 5px;
+  color: #fff;
+}*/
+
+.number-input-wrapper {
+  display: inline-block;
+  align-items: center;
+}
+
+.number-input-wrapper input, 
+.number-input-wrapper button {
+  padding: 0px;
+  margin: 0px;
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+  background-color: #454;
+  color: rgb(219, 219, 219);
+  font-size: 14px;
+  line-height: 10px;  
+  font-weight: 800;
+  text-shadow: 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000, 0px 0px 3px #000;
+  text-align: center;
+  border: 0px solid black;
+}
+
+.number-input-wrapper button{
+  padding: 0px;
+  margin: 0px;
+  width: 25px;
+  background-color: rgb(35, 46, 35);
+}
+
+.skill .number-input-wrapper input{
+  width: 40px;
+}
+.minus {
+  border-radius: 10px 0px 0px 10px;
+  color: rgb(179, 47, 14);
+}
+.plus {
+  border-radius: 0px 10px 10px 0px;
+  color: rgb(22, 148, 18);
 }

@@ -1,7 +1,7 @@
 Slot;Name;Type;Ignore;LevelReq;Weight;Vocs;Knight;Paladin;Sorcerer;Druid;Armor;Attack;AttackFire;AttackEnergy;AttackIce;AttackEarth;Defense;Attributes;ImbSlots;Resists;ResFire;ResPhys;ResDeath;ResHoly;ResEnergy;ResEarth;ResIce;ResManaDrain;ResLifeDrain;ResDrowning;Range;Atkmod;Hit;Handed;Icon;Charges;Duration;BuyPrice
 Helmet;No helmet;helmet;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
 Weapon;No weapon;sword;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
-Weapon;No ammo;ammo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
+Ammo;No ammo;any;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
 Legs;No legs;legs;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
 Amulet;No amulet;amulet;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
 Armor;No armor;armor;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
@@ -225,61 +225,58 @@ Helmet;Witch Hat;helmet;;;7.80;sorcerers and druids;no;no;yes;yes;3;;;;;;;;1;man
 Helmet;Wood Cape;helmet;;;11.00;paladins;no;yes;no;no;3;;;;;;;distance fighting +1;;earth +4%;;;;;;4;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/6/68/Wood_Cape.gif/revision/latest?cb=20091229222706&path-prefix=en;;;
 Helmet;Yalahari Mask;helmet;;80;35.00;sorcerers and druids;no;no;yes;yes;5;;;;;;;magic level +2;1;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/f/f6/Yalahari_Mask.gif/revision/latest?cb=20170904202045&path-prefix=en;;;
 Helmet;Zaoan Helmet;helmet;;;66.00;knights and paladins;yes;yes;no;no;9;;;;;;;;1;physical +5%;;5;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/2/2f/Zaoan_Helmet.gif/revision/latest?cb=20091202011847&path-prefix=en;;;
-Weapon;Bow of Cataclysm;bow;;250;47.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;3;death +4% ;;;;;;;;;;;6;6;4;;;;;
-Weapon;Bow of Destruction;bow;;200;55.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;5;5;;;;;
-Weapon;Bow ;bow;;0;31.00 ;;;;;;;;;;;;;;0;;;;;;;;;;;;6;;;;;;;
-Weapon;Composite Hornbow;bow;;50;52.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;3;2;;;;;
-Weapon;Crude Umbral Bow;bow;;75;50.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;7;2;5;;;;;
-Weapon;Eldritch Bow ;bow;;250;58.00 ;paladins;;;;;;;;;;;;distance fighting +2, holy magic level +1 ;3;;;;;;;;;;;;6;6;6;;;;;
-Weapon;Elethriel's Elemental Bow;bow;;70;44.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;4;7;;;;;;
-Weapon;Elvish Bow ;bow;;0;39.00 ;;;;;;;;;;;;;;3;;;;;;;;;;;;6;;5;;;;;
-Weapon;Falcon Bow ;bow;;300;35.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;3;fire +5% ;;;;;;;;;;;6;7;5;;;;;
-Weapon;Gilded Eldritch Bow;bow;;250;59.00 ;paladins;;;;;;;;;;;;distance fighting +2, holy magic level +1 ;3;;;;;;;;;;;;6;6;6;;;;;
+Weapon;Bow of Cataclysm;bow;;250;47.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;3;death +4% ;;;;;;;;;;;6;6;4;2;https://static.wikia.nocookie.net/tibia/images/1/1d/Bow_of_Cataclysm.gif/revision/latest?cb=20190702165958&path-prefix=en;;;
+Weapon;Bow of Destruction;bow;;200;55.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;5;5;2;https://static.wikia.nocookie.net/tibia/images/0/01/Bow_of_Destruction.gif/revision/latest?cb=20171024221426&path-prefix=en;;;
+Weapon;Bow ;bow;;0;31.00 ;;;;;;;;;;;;;;0;;;;;;;;;;;;6;;;2;https://static.wikia.nocookie.net/tibia/images/a/ad/Bow.gif/revision/latest?cb=20070630122316&path-prefix=en;;;
+Weapon;Composite Hornbow;bow;;50;52.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;3;2;2;https://static.wikia.nocookie.net/tibia/images/9/9a/Composite_Hornbow.gif/revision/latest?cb=20080620211236&path-prefix=en;;;
+Weapon;Crude Umbral Bow;bow;;75;50.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;7;2;5;2;https://static.wikia.nocookie.net/tibia/images/3/33/Crude_Umbral_Bow.gif/revision/latest?cb=20131126175506&path-prefix=en;;;
+Weapon;Eldritch Bow ;bow;;250;58.00 ;paladins;;;;;;;;;;;;distance fighting +2, holy magic level +1 ;3;;;;;;;;;;;;6;6;6;2;https://static.wikia.nocookie.net/tibia/images/9/99/Eldritch_Bow.gif/revision/latest?cb=20210526222852&path-prefix=en;;;
+Weapon;Elethriel's Elemental Bow;bow;;70;44.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;4;7;;2;https://static.wikia.nocookie.net/tibia/images/2/22/Elethriel%27s_Elemental_Bow.gif/revision/latest?cb=20080623164240&path-prefix=en;;;
+Weapon;Elvish Bow ;bow;;0;39.00 ;;;;;;;;;;;;;;3;;;;;;;;;;;;6;;5;2;https://static.wikia.nocookie.net/tibia/images/2/20/Elvish_Bow.gif/revision/latest?cb=20080623160857&path-prefix=en;;;
+Weapon;Falcon Bow ;bow;;300;35.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;3;fire +5% ;;;;;;;;;;;6;7;5;2;https://static.wikia.nocookie.net/tibia/images/f/fc/Falcon_Bow.gif/revision/latest?cb=20180605182033&path-prefix=en;;;
+Weapon;Gilded Eldritch Bow;bow;;250;59.00 ;paladins;;;;;;;;;;;;distance fighting +2, holy magic level +1 ;3;;;;;;;;;;;;6;6;6;2;https://static.wikia.nocookie.net/tibia/images/d/d5/Gilded_Eldritch_Bow.gif/revision/latest?cb=20210526222904&path-prefix=en;;;
 Weapon;Grand Sanguine Bow;bow;;600;47.00 ;paladins;;;;;;;;;;;;"critical hit (10% chance, 12% extra damage), distance fighting +4
-Augments: Divine Caldera -> Powerful Impact ";3;earth +6% ;;;;;;;;;;;6;9;6;;;;;
-Weapon;Hive Bow ;bow;;85;46.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;2;5;;;;;
-Weapon;Icicle Bow ;bow;;0;42.00 ;;;;;;;;;;;;;;3;;;;;;;;;;;;6;1;4;;;;;
-Weapon;Jungle Bow ;bow;;150;47.00 ;paladins;;;;;;;;;;;;distance fighting +1 ;2;physical +3% ;;;;;;;;;;;6;6;5;;;;;
-Weapon;Lion Longbow;bow;;270;48.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;3;ice +5% ;;;;;;;;;;;6;6;6;;;;;
-Weapon;Living Vine Bow;bow;;220;38.00 ;paladins;;;;;;;;;;;;distance fighting +1 ;3;earth +4% ;;;;;;;;;;;6;5;5;;;;;
-Weapon;Musician's Bow;bow;1;0;12.50 ;;;;;;;;;;;;;;3;;;;;;;;;;;;4;;;;;;;
-Weapon;Mycological Bow;bow;;105;49.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;4;4;;;;;
-Weapon;Rift Bow;bow;;120;41.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;7;5;3;;;;;
+Augments: Divine Caldera -> Powerful Impact ";3;earth +6% ;;;;;;;;;;;6;9;6;2;https://static.wikia.nocookie.net/tibia/images/3/3a/Grand_Sanguine_Bow.gif/revision/latest?cb=20230612110151&path-prefix=en;;;
+Weapon;Hive Bow ;bow;;85;46.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;2;5;2;https://static.wikia.nocookie.net/tibia/images/d/d3/Hive_Bow.gif/revision/latest?cb=20111201192631&path-prefix=en;;;
+Weapon;Icicle Bow ;bow;;0;42.00 ;;;;;;;;;;;;;;3;;;;;;;;;;;;6;1;4;2;https://static.wikia.nocookie.net/tibia/images/0/0d/Icicle_Bow.gif/revision/latest?cb=20130903162131&path-prefix=en;;;
+Weapon;Jungle Bow ;bow;;150;47.00 ;paladins;;;;;;;;;;;;distance fighting +1 ;2;physical +3% ;;;;;;;;;;;6;6;5;2;https://static.wikia.nocookie.net/tibia/images/0/08/Jungle_Bow.gif/revision/latest?cb=20201106145528&path-prefix=en;;;
+Weapon;Lion Longbow;bow;;270;48.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;3;ice +5% ;;;;;;;;;;;6;6;6;2;https://static.wikia.nocookie.net/tibia/images/a/a7/Lion_Longbow.gif/revision/latest?cb=20200611032308&path-prefix=en;;;
+Weapon;Living Vine Bow;bow;;220;38.00 ;paladins;;;;;;;;;;;;distance fighting +1 ;3;earth +4% ;;;;;;;;;;;6;5;5;2;https://static.wikia.nocookie.net/tibia/images/6/61/Living_Vine_Bow.gif/revision/latest?cb=20181107144543&path-prefix=en;;;
+Weapon;Musician's Bow;bow;1;0;12.50 ;;;;;;;;;;;;;;3;;;;;;;;;;;;4;;;2;https://static.wikia.nocookie.net/tibia/images/f/f6/Musician%27s_Bow.gif/revision/latest?cb=20170922201301&path-prefix=en;;;
+Weapon;Mycological Bow;bow;;105;49.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;4;4;2;https://static.wikia.nocookie.net/tibia/images/c/c6/Mycological_Bow.gif/revision/latest?cb=20120622190650&path-prefix=en;;;
+Weapon;Rift Bow;bow;;120;41.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;7;5;3;2;https://static.wikia.nocookie.net/tibia/images/7/7b/Rift_Bow.gif/revision/latest?cb=20151112183815&path-prefix=en;;;
 Weapon;Sanguine Bow;bow;;600;47.00 ;paladins;;;;;;;;;;;;"critical hit (10% chance, 12% extra damage), distance fighting +4
-Augments: Divine Caldera -> Strong Impact ";3;earth +6% ;;;;;;;;;;;6;9;6;;;;;
-Weapon;Shimmer Bow ;bow;;40;48.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;6;1;7;;;;;
-Weapon;Silkweaver Bow;bow;;40;22.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;;3;;;;;
-Weapon;Soulbleeder;bow;;400;47.00 ;paladins;;;;;;;;;;;;critical hit (10% chance, 10% extra damage), distance fighting +4 ;3;holy +7% ;;;;;;;;;;;6;8;5;;;;;
-Weapon;Umbral Bow;bow;;120;45.00 ;paladins;;;;;;;;;;;;;1;;;;;;;;;;;;7;4;5;;;;;
-Weapon;Umbral Master Bow ;bow;;250;40.00 ;paladins;;;;;;;;;;;;distance fighting +3 ;2;;;;;;;;;;;;7;6;5;;;;;
-Weapon;Warsinger Bow ;bow;;80;45.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;7;3;5;;;;;
-Weapon;Yol's Bow ;bow;;60;35.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;7;;7;;;;;
-Weapon;Arbalest ;crossbow;;75;95.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;6;2;2;;;;;
-Weapon;Chain Bolter ;crossbow;;60;55.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;3;4;;;;;;
-Weapon;Cobra Crossbow ;crossbow;;220;40.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;2;;;;;;;;;;;;6;7;6;;;;;
-Weapon;Crossbow of Destruction ;crossbow;;200;65.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;6;5;;;;;
-Weapon;Crossbow ;crossbow;;0;40.00 ;;;;;;;;;;;;;;3;;;;;;;;;;;;5;;;;;;;
-Weapon;Crude Umbral Crossbow ;crossbow;;75;130.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;5;3;1;;;;;
-Weapon;Crystal Crossbow ;crossbow;;90;84.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;6;4;3;;;;;
+Augments: Divine Caldera -> Strong Impact ";3;earth +6% ;;;;;;;;;;;6;9;6;2;https://static.wikia.nocookie.net/tibia/images/f/fd/Sanguine_Bow.gif/revision/latest?cb=20230612110134&path-prefix=en;;;
+Weapon;Shimmer Bow ;bow;;40;48.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;6;1;7;2;https://static.wikia.nocookie.net/tibia/images/e/e8/Shimmer_Bow.gif/revision/latest?cb=20110701204354&path-prefix=en;;;
+Weapon;Silkweaver Bow;bow;;40;22.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;;3;2;https://static.wikia.nocookie.net/tibia/images/5/5e/Silkweaver_Bow.gif/revision/latest?cb=20080620192915&path-prefix=en;;;
+Weapon;Soulbleeder;bow;;400;47.00 ;paladins;;;;;;;;;;;;critical hit (10% chance, 10% extra damage), distance fighting +4 ;3;holy +7% ;;;;;;;;;;;6;8;5;2;https://static.wikia.nocookie.net/tibia/images/d/d3/Soulbleeder.gif/revision/latest?cb=20200611021030&path-prefix=en;;;
+Weapon;Umbral Bow;bow;;120;45.00 ;paladins;;;;;;;;;;;;;1;;;;;;;;;;;;7;4;5;2;https://static.wikia.nocookie.net/tibia/images/1/1c/Umbral_Bow.gif/revision/latest?cb=20131126175524&path-prefix=en;;;
+Weapon;Umbral Master Bow ;bow;;250;40.00 ;paladins;;;;;;;;;;;;distance fighting +3 ;2;;;;;;;;;;;;7;6;5;2;https://static.wikia.nocookie.net/tibia/images/f/f7/Umbral_Master_Bow.gif/revision/latest?cb=20131126175539&path-prefix=en;;;
+Weapon;Warsinger Bow ;bow;;80;45.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;7;3;5;2;https://static.wikia.nocookie.net/tibia/images/f/f8/Warsinger_Bow.gif/revision/latest?cb=20171004193415&path-prefix=en;;;
+Weapon;Yol's Bow ;bow;;60;35.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;7;;7;2;https://static.wikia.nocookie.net/tibia/images/1/19/Yol%27s_Bow.gif/revision/latest?cb=20080624232723&path-prefix=en;;;
+Weapon;Arbalest ;crossbow;;75;95.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;6;2;2;2;https://static.wikia.nocookie.net/tibia/images/0/0b/Arbalest.gif/revision/latest?cb=20061215034313&path-prefix=en;;;
+Weapon;Chain Bolter ;crossbow;;60;55.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;3;4;;2;https://static.wikia.nocookie.net/tibia/images/0/06/Chain_Bolter.gif/revision/latest?cb=20080619203720&path-prefix=en;;;
+Weapon;Cobra Crossbow ;crossbow;;220;40.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;2;;;;;;;;;;;;6;7;6;2;https://static.wikia.nocookie.net/tibia/images/6/6c/Cobra_Crossbow.gif/revision/latest?cb=20190701193331&path-prefix=en;;;
+Weapon;Crossbow of Destruction ;crossbow;;200;65.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;6;5;2;https://static.wikia.nocookie.net/tibia/images/3/39/Crossbow_of_Destruction.gif/revision/latest?cb=20171024221818&path-prefix=en;;;
+Weapon;Crossbow ;crossbow;;0;40.00 ;;;;;;;;;;;;;;3;;;;;;;;;;;;5;;;2;https://static.wikia.nocookie.net/tibia/images/5/51/Crossbow.gif/revision/latest?cb=20050520010709&path-prefix=en;;;
+Weapon;Crude Umbral Crossbow ;crossbow;;75;130.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;5;3;1;2;https://static.wikia.nocookie.net/tibia/images/f/f4/Crude_Umbral_Crossbow.gif/revision/latest?cb=20131126174449&path-prefix=en;;;
+Weapon;Crystal Crossbow ;crossbow;;90;84.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;6;4;3;2;https://static.wikia.nocookie.net/tibia/images/a/a2/Crystal_Crossbow.gif/revision/latest?cb=20120622190640&path-prefix=en;;;
 Weapon;Grand Sanguine Crossbow ;crossbow;;600;47.00 ;paladins;;;;;;;;;;;;"critical hit (10% chance, 12% extra damage), distance fighting +4
-Augments: Divine Caldera -> Powerful Impact ";3;fire +6% ;;;;;;;;;;;6;10;7;;;;;
-Weapon;Modified Crossbow ;crossbow;;45;35.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;;1;;;;;
-Weapon;Naga Crossbow ;crossbow;;300;102.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;3;earth +4% ;;;;;;;;;;;6;8;6;;;;;
-Weapon;Ornate Crossbow ;crossbow;;50;91.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;6;1;2;;;;;
-Weapon;Rift Crossbow ;crossbow;;120;130.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;5;4;;;;;
-Weapon;Royal Crossbow ;crossbow;;130;120.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;5;3;;;;;
+Augments: Divine Caldera -> Powerful Impact ";3;fire +6% ;;;;;;;;;;;6;10;7;2;https://static.wikia.nocookie.net/tibia/images/3/38/Grand_Sanguine_Crossbow.gif/revision/latest?cb=20230612110224&path-prefix=en;;;
+Weapon;Modified Crossbow ;crossbow;;45;35.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;;1;2;https://static.wikia.nocookie.net/tibia/images/4/4c/Modified_Crossbow.gif/revision/latest?cb=20171004192937&path-prefix=en;;;
+Weapon;Naga Crossbow ;crossbow;;300;102.00 ;paladins;;;;;;;;;;;;distance fighting +2 ;3;earth +4% ;;;;;;;;;;;6;8;6;2;https://static.wikia.nocookie.net/tibia/images/6/6d/Naga_Crossbow.gif/revision/latest?cb=20220621152955&path-prefix=en;;;
+Weapon;Ornate Crossbow ;crossbow;;50;91.00 ;paladins;;;;;;;;;;;;;0;;;;;;;;;;;;6;1;2;2;https://static.wikia.nocookie.net/tibia/images/a/a8/Ornate_Crossbow.gif/revision/latest?cb=20111201191432&path-prefix=en;;;
+Weapon;Rift Crossbow ;crossbow;;120;130.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;5;4;2;https://static.wikia.nocookie.net/tibia/images/f/f6/Rift_Crossbow.gif/revision/latest?cb=20151112183815&path-prefix=en;;;
+Weapon;Royal Crossbow ;crossbow;;130;120.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;5;3;2;https://static.wikia.nocookie.net/tibia/images/8/8d/Royal_Crossbow.gif/revision/latest?cb=20171004193028&path-prefix=en;;;
 Weapon;Sanguine Crossbow ;crossbow;;600;47.00 ;paladins;;;;;;;;;;;;"critical hit (10% chance, 12% extra damage), distance fighting +4
-Augments: Divine Caldera -> Strong Impact ";3;fire +6% ;;;;;;;;;;;6;10;7;;;;;
-Weapon;Soulpiercer ;crossbow;;400;40.00 ;paladins;;;;;;;;;;;;critical hit (10% chance, 10% extra damage), distance fighting +4 ;3;death +7% ;;;;;;;;;;;6;9;6;;;;;
-Weapon;The Devileye ;crossbow;;100;55.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;20;-20;;;;;
-Weapon;The Ironworker ;crossbow;;80;150.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;4;;;;;;
-Weapon;Thorn Spitter ;crossbow;;150;126.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;9;1;;;;;
-Weapon;Triple Bolt Crossbow ;crossbow;;70;62.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;3;2;;;;;
-Weapon;Umbral Crossbow ;crossbow;;120;125.00 ;paladins;;;;;;;;;;;;;1;;;;;;;;;;;;5;6;2;;;;;
-Weapon;Umbral Master Crossbow ;crossbow;;250;120.00 ;paladins;;;;;;;;;;;;distance fighting +3 ;2;;;;;;;;;;;;5;9;4;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Augments: Divine Caldera -> Strong Impact ";3;fire +6% ;;;;;;;;;;;6;10;7;2;https://static.wikia.nocookie.net/tibia/images/b/b5/Sanguine_Crossbow.gif/revision/latest?cb=20230612110238&path-prefix=en;;;
+Weapon;Soulpiercer ;crossbow;;400;40.00 ;paladins;;;;;;;;;;;;critical hit (10% chance, 10% extra damage), distance fighting +4 ;3;death +7% ;;;;;;;;;;;6;9;6;2;https://static.wikia.nocookie.net/tibia/images/8/88/Soulpiercer.gif/revision/latest?cb=20200611021029&path-prefix=en;;;
+Weapon;The Devileye ;crossbow;;100;55.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;20;-20;2;https://static.wikia.nocookie.net/tibia/images/0/0b/The_Devileye.gif/revision/latest?cb=20171004193132&path-prefix=en;;;
+Weapon;The Ironworker ;crossbow;;80;150.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;4;;2;https://static.wikia.nocookie.net/tibia/images/d/d8/The_Ironworker.gif/revision/latest?cb=20171004193218&path-prefix=en;;;
+Weapon;Thorn Spitter ;crossbow;;150;126.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;6;9;1;2;https://static.wikia.nocookie.net/tibia/images/5/5f/Thorn_Spitter.gif/revision/latest?cb=20120403142225&path-prefix=en;;;
+Weapon;Triple Bolt Crossbow ;crossbow;;70;62.00 ;paladins;;;;;;;;;;;;;3;;;;;;;;;;;;5;3;2;2;https://static.wikia.nocookie.net/tibia/images/3/3e/Triple_Bolt_Crossbow.gif/revision/latest?cb=20130903162129&path-prefix=en;;;
+Weapon;Umbral Crossbow ;crossbow;;120;125.00 ;paladins;;;;;;;;;;;;;1;;;;;;;;;;;;5;6;2;2;https://static.wikia.nocookie.net/tibia/images/8/81/Umbral_Crossbow.gif/revision/latest?cb=20131126174638&path-prefix=en;;;
+Weapon;Umbral Master Crossbow ;crossbow;;250;120.00 ;paladins;;;;;;;;;;;;distance fighting +3 ;2;;;;;;;;;;;;5;9;4;2;https://static.wikia.nocookie.net/tibia/images/8/81/Umbral_Master_Crossbow.gif/revision/latest?cb=20131126174814&path-prefix=en;;;
 Weapon;Short sword;sword;;;;;;;;;;14;;;;;9;;;;;;;;;;;;;;;;;1;test.png;;;
 Weapon;Giant sword;sword;;55;;;;;;;;45;;;;;9;;;;;;;;;;;;;;;;;2;test.png;;;
 Weapon;Battle Axe;axe;;;;;;;;;;25;;;;;10;;;;;;;;;;;;;;;;;2;test.png;;;
@@ -305,25 +302,25 @@ Boots;Boots of Haste ;boots;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
 Boots;Prismatic Boots ;boots;;150;;;;;;;3;;;;;;;;;;;;3;;;;;;;;;;;;test.png;;;
 Ring;Life Ring;ring;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
 Ring;Death Ring;ring;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
-Ammo;Arrow ;bow;;;0.70 ;;;;;;;25;;;;;;;;;;;;;;;;;;;;;;;test.png;;;3
-Ammo;Burst Arrow ;bow;;;0.90 ;;;;;;;27;;;;;;;;;;;;;;;;;;;;;;;test.png;;;
-Ammo;Crystalline Arrow ;bow;;90;0.75 ;;;;;;;65;;;;;;;;;;;;;;;;;;;;;;;test.png;;;20
-Ammo;Diamond Arrow ;bow;;150;0.80 ;;;;;;;37;;;;;;;;;;;;;;;;;;;;;;;test.png;;;100
-Ammo;Earth Arrow ;bow;;20;0.70 ;;;;;;;14;;;;14;;;;;;;;;;;;;;;;;;;;;;5
-Ammo;Envenomed Arrow ;bow;;70;0.70 ;;;;;;;27;;;;27;;;;;;;;;;;;;;;;;;;;;;12
-Ammo;Flaming Arrow ;bow;;20;0.70 ;;;;;;;14;14;;;;;;;;;;;;;;;;;;;;;;;;;5
-Ammo;Flash Arrow ;bow;;20;0.70 ;;;;;;;14;;14;;;;;;;;;;;;;;;;;;;;;;;;5
-Ammo;Onyx Arrow ;bow;;40;0.70 ;;;;;;;38;;;;;;;;;;;;;;;;;;;;;;;;;;7
-Ammo;Poison Arrow ;bow;;;0.80 ;;;;;;;23;;;;;;;;;;;;;;;;;;;;;;;;;;
-Ammo;Shiver Arrow ;bow;;20;0.70 ;;;;;;;14;;;14;;;;;;;;;;;;;;;;;;;;;;;5
-Ammo;Simple Arrow ;bow;;;0.60 ;;;;;;;20;;;;;;;;;;;;;;;;;;;;;;;;;;2
-Ammo;Sniper Arrow ;bow;;20;0.70 ;;;;;;;28;;;;;;;;;;;;;;;;;;;;;;;;;;5
-Ammo;Tarsal Arrow ;bow;;30;0.70 ;;;;;;;33;;;;;;;;;;;;;;;;;;;;;;;;;;6
-Ammo;Bolt ;crossbow;;;0.80 ;;;;;;;30;;;;;;;;;;;;;;;;;;;;;;;;;;4
-Ammo;Drill Bolt ;crossbow;;;0.80 ;;;;;;;56;;;;;;;;;;;;;;;;;;;;;;;;;;12
-Ammo;Infernal Bolt ;crossbow;;;0.90 ;;;;;;;72;;;;;;;;;;;;;;;;;;;;;;;;;;
-Ammo;Piercing Bolt ;crossbow;;;0.80 ;;;;;;;33;;;;;;;;;;;;;;;;;;;;;;;;;;5
-Ammo;Power Bolt ;crossbow;;;0.90 ;;;;;;;40;;;;;;;;;;;;;;;;;;;;;;;;;;7
-Ammo;Prismatic Bolt ;crossbow;;;0.85 ;;;;;;;66;;;;;;;;;;;;;;;;;;;;;;;;;;20
-Ammo;Spectral Bolt ;crossbow;;;0.90 ;;;;;;;78;;;;;;;;;;;;;;;;;;;;;;;;;;70
-Ammo;Vortex Bolt ;crossbow;;;0.80 ;;;;;;;36;;;;;;;;;;;;;;;;;;;;;;;;;;6
+Ammo;Arrow ;bow;;;0.70 ;;;;;;;25;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/6/69/Arrow.gif/revision/latest?cb=20050520003245&path-prefix=en;;;3
+Ammo;Burst Arrow ;bow;;;0.90 ;;;;;;;27;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/b/bd/Burst_Arrow.gif/revision/latest?cb=20150720234318&path-prefix=en;;;
+Ammo;Crystalline Arrow ;bow;;90;0.75 ;;;;;;;65;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/f/f4/Crystalline_Arrow.gif/revision/latest?cb=20120622174807&path-prefix=en;;;20
+Ammo;Diamond Arrow ;bow;;150;0.80 ;;;;;;;37;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/4/46/Diamond_Arrow.gif/revision/latest?cb=20170713181123&path-prefix=en;;;100
+Ammo;Earth Arrow ;bow;;20;0.70 ;;;;;;;14;;;;14;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/0/02/Earth_Arrow.gif/revision/latest?cb=20071215061000&path-prefix=en;;;5
+Ammo;Envenomed Arrow ;bow;;70;0.70 ;;;;;;;27;;;;27;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/9/90/Envenomed_Arrow.gif/revision/latest?cb=20120622190155&path-prefix=en;;;12
+Ammo;Flaming Arrow ;bow;;20;0.70 ;;;;;;;14;14;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/d/da/Flaming_Arrow.gif/revision/latest?cb=20101222214308&path-prefix=en;;;5
+Ammo;Flash Arrow ;bow;;20;0.70 ;;;;;;;14;;14;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/8/8c/Flash_Arrow.gif/revision/latest?cb=20150125151320&path-prefix=en;;;5
+Ammo;Onyx Arrow ;bow;;40;0.70 ;;;;;;;38;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/3/3f/Onyx_Arrow.gif/revision/latest?cb=20070623041334&path-prefix=en;;;7
+Ammo;Poison Arrow ;bow;;;0.80 ;;;;;;;23;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/6/62/Poison_Arrow.gif/revision/latest?cb=20050528000835&path-prefix=en;;;
+Ammo;Shiver Arrow ;bow;;20;0.70 ;;;;;;;14;;;14;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/1/16/Shiver_Arrow.gif/revision/latest?cb=20101222214827&path-prefix=en;;;5
+Ammo;Simple Arrow ;bow;;;0.60 ;;;;;;;20;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/2/2d/Simple_Arrow.gif/revision/latest?cb=20150720234320&path-prefix=en;;;2
+Ammo;Sniper Arrow ;bow;;20;0.70 ;;;;;;;28;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/2/2e/Sniper_Arrow.gif/revision/latest?cb=20150720234322&path-prefix=en;;;5
+Ammo;Tarsal Arrow ;bow;;30;0.70 ;;;;;;;33;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/d/d7/Tarsal_Arrow.gif/revision/latest?cb=20111212212926&path-prefix=en;;;6
+Ammo;Bolt ;crossbow;;;0.80 ;;;;;;;30;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/7/74/Bolt.gif/revision/latest?cb=20150720234317&path-prefix=en;;;4
+Ammo;Drill Bolt ;crossbow;;;0.80 ;;;;;;;56;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/f/fc/Drill_Bolt.gif/revision/latest?cb=20120622190148&path-prefix=en;;;12
+Ammo;Infernal Bolt ;crossbow;;;0.90 ;;;;;;;72;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/a/a6/Infernal_Bolt.gif/revision/latest?cb=20090704070449&path-prefix=en;;;
+Ammo;Piercing Bolt ;crossbow;;;0.80 ;;;;;;;33;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/7/72/Piercing_Bolt.gif/revision/latest?cb=20150720234319&path-prefix=en;;;5
+Ammo;Power Bolt ;crossbow;;;0.90 ;;;;;;;40;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/1/1c/Power_Bolt.gif/revision/latest?cb=20150720234319&path-prefix=en;;;7
+Ammo;Prismatic Bolt ;crossbow;;;0.85 ;;;;;;;66;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/3/32/Prismatic_Bolt.gif/revision/latest?cb=20120622190103&path-prefix=en;;;20
+Ammo;Spectral Bolt ;crossbow;;;0.90 ;;;;;;;78;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/a/a8/Spectral_Bolt.gif/revision/latest?cb=20170713181440&path-prefix=en;;;70
+Ammo;Vortex Bolt ;crossbow;;;0.80 ;;;;;;;36;;;;;;;;;;;;;;;;;;;;;;;https://static.wikia.nocookie.net/tibia/images/6/6a/Vortex_Bolt.gif/revision/latest?cb=20111212213313&path-prefix=en;;;6
