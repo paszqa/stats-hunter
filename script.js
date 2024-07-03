@@ -1188,7 +1188,7 @@ function imageForDamageType(damageTypeInput){
             return "<img src=\"images/Life_Drain_Icon.gif\">";
         case "manadrain":
         case "mana":
-            return "<img src=\"images/Mana_Drain_Icon.gif/\">";
+            return "<img src=\"images/Mana_Drain_Icon.gif\">";
         case "summon":
             return "<img src=\"images/Player_Summon.gif\">";
         case "heal":
